@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+
+html {
+    background-color: black;
+    color: white;
+    font-family: Source Code Pro;
+    line-height: 17px;
+    font-size: 12px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.ib > a {
+    display: inline-block;
+}
+
+.ib {
+    position: absolute;
+    bottom: 10px;
+}
