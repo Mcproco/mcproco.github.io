@@ -11,6 +11,7 @@
 
     --foreground : #1d1f21;
     --text-color : #e7ebe8;
+    --subtext-color : #a1a8a5;
     --link-color : #de8778;
 
 }
@@ -81,4 +82,14 @@ footer {
 
     position:absolute;
     bottom: 0;
+}
+
+.subtext {
+    color: var(--subtext-color);
+    font-size: 13px;
+}
+
+.name {
+    color: var(--text-color);
+    font-size: 30px;
 }
