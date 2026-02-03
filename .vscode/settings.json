@@ -1,0 +1,4 @@
+{
+  "css.styleSheets": ["src/**/*.css"],
+  "liveServer.settings.file": "404.html"
+}
