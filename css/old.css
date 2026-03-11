@@ -23,8 +23,15 @@ img {
 
 a {
     color: var(--link-color);
+    text-decoration: none;
     text-underline-offset: 10px;
 }
+
+a:hover {
+    text-decoration: underline;
+}
+
+
 
 body {
 
@@ -92,4 +99,9 @@ footer {
 .name {
     color: var(--text-color);
     font-size: 30px;
+    
+}
+
+.back {
+    
 }

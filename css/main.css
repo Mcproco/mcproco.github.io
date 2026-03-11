@@ -1,0 +1,126 @@
+/* Define all color variables */
+@font-face {
+    font-family: "JetBrains Regular";
+    src: url(/res/fonts/JetBrainsMono-Regular.woff2) format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+
+    font-family: "JetBrains Regular", monospace;
+
+    --background : #1d1f21;
+    --text-color : #e7ebe8;
+    --subtext-color : #a1a8a5;
+    --link-color : #de8778;
+
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text-color);
+}
+
+body #info {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+body #info #text {
+    display: flex;
+    flex-direction: column;
+}
+
+body #linktr {
+
+    margin-top: 70px;
+    padding:0 0px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center;
+    overflow:visible;
+    white-space: nowrap;
+
+}
+
+main article {
+    margin:auto;
+    max-width: 700px;
+    align-items: center;
+}
+
+main article .bottom {
+
+    position:absolute;
+    bottom: 0px;
+    padding: 20px 0px;
+
+}
+
+header nav {
+    max-width: 850px;
+    min-height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+footer {
+    position:absolute;
+    bottom: 0;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+    text-underline-offset: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+blockquote {
+
+    border-left: 1.5px var(--subtext-color) solid;
+    padding-left: 25px;
+    margin: 1em 0;
+    color: var(--subtext-color);
+
+}
+
+.name {
+    color: var(--text-color);
+    font-size: 30px;
+    margin: auto;
+}
+
+.subtext {
+    color: var(--subtext-color);
+    font-size: 13px;
+    margin: auto;
+}
+
+.postlist a {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 2em;
+  padding: .25em 0px;
+  text-decoration: none;
+  border-bottom: 1.5px solid rgba(0,0,0,0);
+  border-bottom-width: 1.5px;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(0, 0, 0, 0);
+  position: relative;
+}
+
+.postlist a:hover {
+
+    border-bottom-color: var(--link-color);
+
+}
