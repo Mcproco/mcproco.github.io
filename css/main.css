@@ -30,6 +30,7 @@ body #info {
 
 body #info #text {
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
 }
 
@@ -70,7 +71,7 @@ header nav {
 }
 
 footer {
-    position:absolute;
+    position: fixed;
     bottom: 0;
 }
 
@@ -95,13 +96,13 @@ blockquote {
 
 .name {
     color: var(--text-color);
-    font-size: 30px;
+    font-size: 45px;
     margin: auto;
 }
 
 .subtext {
     color: var(--subtext-color);
-    font-size: 13px;
+    font-size: 14px;
     margin: auto;
 }
 
