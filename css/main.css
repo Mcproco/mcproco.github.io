@@ -124,3 +124,8 @@ blockquote {
     border-bottom-color: var(--link-color);
 
 }
+
+.cited p {
+    padding-left: 55px;
+    text-indent: -55px;
+}

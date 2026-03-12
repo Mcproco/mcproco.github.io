@@ -1,6 +1,5 @@
 const linktr = document.getElementById("linktr");
 const directories = {
-    "HOME" : "/",
     "COMMUNITY" : "community/",
     "FORMS" : "forms/",
     "PAPER" : "paper/",
