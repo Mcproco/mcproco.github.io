@@ -174,6 +174,54 @@
             <br>
             <br>
 
+            <div>
+                <h2 id = "10">Project Progress</h2>
+                <p class="subtext">25 FEB 2026</p>
+                <br>
+
+                <p>
+                    Assuming that the project is due around the end of April, I should be fine. However knowing myself (and the development process in general), if I say that it will take a month, it will take four months. And if I say it will take four months, it will take a year. Nothing good all around.
+                </p>
+
+                <p>
+                    I can say that I've made some pretty great progress on the project however. I have linked the following packages to my project:
+                </p>
+                <blockquote>
+                    <p>OpenGL</p>
+                        <p>The "Open Graphics Library" (its more of a specification than an API). I will be using it for rendering images on screen</p>
+                    
+                    <br>
+
+                    <p>Glad</p>
+                        <p>A C library for aquiring proper OpenGL funciton pointers. Since OpenGL's function pointers are in different locations on different machines and OSs, it would be overcumbersome to rewrite similar function pointer logic over and over again. </p>
+                    
+                    <br>
+
+                    <p>GLFW3</p>
+                        <p>A library written in C to simplify window creation and the rendering loop. Instead of writting logic for creating windows for different operating systems and architectures, GLFW handles that for me. It also additionally provides functions like input handling, which is a plus</p>
+                    <br>
+
+                    <p>CGLM</p>
+                        <p>A header-only (I'm like 70% sure) library for performing complex math functions that OpenGL requires</p>
+                    
+                    <br>
+
+                    <p>CImGui</p>
+                        <p>C bindings for the "bloat-free" C++ GUI library. C++ is a subset of C, and unfortunately ImGui is a C++ library. So it's a bit funky going from C++ back to C. (C++ is basically C with more stuff added to it. Meaning a LOT of C++ features aren't available in C. However, any C program is a valid C++ program) This will be doing the heavy lifting, since my project literally is just a User Interface; No fancy 3d graphics will be done (sadly) (honestly the whole learning part comes from the fact that I'm using ANSI C)</p>
+                </blockquote>
+
+                <p>
+                    It might seem like I'm not the one programming here since I'm importing like 5 different libraries / APIs. However, let me reassure you that these libraries just prevent this project from taking 2 decades to complete. 
+                </p>
+                <p>
+                    Libraries, packages, frameworks, engines (and all the other terms I forgot) are typical components of any project. There's a reason why it's considered a challenge to write stuff from complete scratch. Because all that does is add uneccesary steps to achieve something people have already done a bajillion times. And the last thing a programmer wants is have to write OS specific or hardware specific code. The reason being that there are many different OSs that use a vast array of different hardware. If there is a library that simplifies a feature from machine specific code, you best use it.
+                </p>
+
+            </div>
+
+            <br>
+            <br>
+
         </article>
 
     </main>
