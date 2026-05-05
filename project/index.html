@@ -9,27 +9,54 @@
 
 <style>
 
-    .sec404 {
+    
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 80px;
+    }
+
+    .card img {
+        height: auto;
+        max-width: 900px;
+    }
+
+    .card p {
+        text-align: center;
+    }
+
+    .list section {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+    }
+
+    .list section div {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+
+    .list section div img {
+        height: auto;
+        max-width: 450px;
+        padding: 10px;
+    }
+
+    .list  {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: -1em;
-    }
-
-    .img404 {
-        scale: 0.85;
-        border-color: white;
-        border-style: solid;
-        border-width: 5px;
-    }
-
-    .txt404 {
-        margin-bottom: 0;
-        margin-top: 0;
-        font-style: italic;
+        height: auto;
+        margin-bottom: 80px;
         text-align: center;
     }
+
+
 
 </style>
 
@@ -54,42 +81,63 @@
 
             <br>
 
-            <strong>MRS. TRAUTNER I WANT YOU TO KNOW THAT IM VERY TIRED AND I PRESENT TOMORROW SO I WILL UPDATE THIS WHEN I GET HOME OK BYE THANKS FOR UNDERSTANDING YOU'RE A GREAT TEACHER BTW IM VERY LUCKY THAT I GOT YOU</strong>
-
             <p>For now, I have some screenshots of the project working</p>
             <p>I can verify (for my machine, at least) that the project has cross-compatability, meaning that it can work on multiple different machines running different operating systems</p>
             <p>PLEASE NOTE that I am basically working free hours and by making this Open Source under the MIT license, I'm giving away those free hours</p>
 
-            <section class="sec404">
-                <img class ="img404" src="/res/img/demo-0.png">
-                <p class="txt404">Project window (left) running on Microsoft's Windows OS, with the console window that built it (right)</p>
+            <br>
+            <br>
+            <br>
+
+            <section class="card">
+                <img src="/res/img/demo-0.png">
+                <p>Project window (left) running on Microsoft's Windows OS, with the console window that built it (right)</p>
             </section>
 
-            <br>
-            <br>
-            <br>
-            <br>
-
-            <section class="sec404">
-                <img class ="img404" src="/res/img/demo-1.png">
-                <p class="txt404">The DearImGui demo window, with some widgets open</p>
+            <section class="card">
+                <img src="/res/img/demo-1.png">
+                <p>The DearImGui demo window, with some widgets open</p>
             </section>
 
-            <br>
-            <br>
-            <br>
-            <br>
+            <section class="list">
 
-            <section class="sec404">
-                <img class ="img404" src="/res/img/sadness-0.png">
-                <p class="txt404">My rejection letter from UC Berkeley, which I don't think of often</p>
+                <p>This is the graphics pipe line sort of summed up. Keep in mind this was the heaviest part of the project:</p>
+
+                <section>
+                    <div>
+                        <img src="/res/img/project/0.png">
+                        <p>Make up a model with verticies</p>
+                    </div>
+                    <div>
+                        <img src="/res/img/project/1.png">
+                        <p>Transform that model to a 4x4 matrix, defining its global transform</p>
+                    </div>
+                    <div>
+                        <img src="/res/img/project/2.png">
+                        <p>Do that for all of the models in the scene</p>
+                    </div>
+                </section>
+                <section>
+                    <div>
+                        <img src="/res/img/project/3.png">
+                        <p>This is the last image but in wireframe</p>
+                    </div>
+                    <div>
+                        <img src="/res/img/project/4.png">
+                        <p>Transform all of those models to a camera's 4x4 matrix, and project those onto the screen</p>
+                    </div>
+                    <div>
+                        <img src="/res/img/project/5.png">
+                        <p>Add color to every shape (fragment)</p>
+                    </div>
+                </section>
+
             </section>
 
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+            <section class="card">
+                <img src="/res/img/sadness-0.png">
+                <p>My rejection letter from UC Berkeley, which I don't think of often</p>
+            </section>
 
         </article>
 
